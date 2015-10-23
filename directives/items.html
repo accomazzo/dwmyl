@@ -1,12 +1,12 @@
-      <div class="row goal-item" ng-repeat="item in ctrl.item | filter:typeFilter">        
-        <div class="col-xs-12 col-sm-8 col-sm-offset-2">
-          <ul>
-            <li>
-              <label class="checkbox">
-                <input type="checkbox" class="goal-checkbox" ng-click="onChange(item)" ng-checked="item.completed" />              
-              </label>
-              <span class="goal-title" ng-class="{'goal-completed': item.completed === true}">{{item.text}}</span>
-            </li>
-          </ul>
-        </div>
-      </div>
+<div class="row goal-item" ng-repeat="item in ctrl.item | filter:typeFilter">        
+  <div class="col-xs-12 col-sm-8 col-sm-offset-2">
+    <ul>
+      <li>
+        <label class="checkbox">
+          <input type="checkbox" class="goal-checkbox" ng-click="onChange(item)" ng-checked="item.completed" />              
+        </label>
+        <span class="goal-title" ng-class="{'goal-completed': item.completed === true}">{{item.text}}</span>
+      </li>
+    </ul>
+  </div>
+</div>
