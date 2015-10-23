@@ -19,4 +19,4 @@ Selling Points:
 Please feel free to contact me with any questions, comments, or concerns.
 
 >“It wasn’t my day. My week. My month. My year. My life. God damn it.”
-> > --Charles Bukowski
+>--Charles Bukowski
