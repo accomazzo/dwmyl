@@ -1,0 +1,39 @@
+    <div class="col-xs-12">
+      
+      <div class="row goal-add">
+        <div class="col-xs-12 col-sm-8 col-sm-offset-2">
+          <form ng-submit="addGoal()">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Input Goal, Select Type, Then Hit Enter/Return" ng-model="goalText">
+              <label class="radio-inline">
+                <input type="radio" name="goalTimeRadioButton" value="Day" ng-model="goalType">
+                Day
+              </label>
+              <label class="radio-inline">
+                <input type="radio" name="goalTimeRadioButton" value="Week" ng-model="goalType">
+                Week
+              </label>
+              <label class="radio-inline">
+                <input type="radio" name="goalTimeRadioButton" value="Month" ng-model="goalType">
+                Month
+              </label>
+              <label class="radio-inline">
+                <input type="radio" name="goalTimeRadioButton" value="Year" ng-model="goalType">
+                Year
+              </label>
+              <label class="radio-inline">
+                <input type="radio" name="goalTimeRadioButton" value="Life" ng-model="goalType"> 
+                Life
+              </label>
+            </div>
+          </form>
+        </div>
+      </div>
+      
+      <div class="row">
+        <div class="col-xs-12 col-sm-8 col-sm-offset-2">
+          <button class="btn btn-danger" ng-click="clearCompleted()">Clear Completed</button>
+        </div>
+      </div>
+    
+    </div>  

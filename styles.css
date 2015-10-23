@@ -1,0 +1,22 @@
+.goal-add {
+    margin-top:20px;
+}
+.goal-list {
+    margin-top:20px;
+}
+.goal-item > div > ul{
+    padding-left: 0px;
+}
+.goal-item > div > ul li {
+    list-style-type: none;
+}
+.goal-checkbox {
+    left: 20px
+}
+.goal-title {
+    margin-left:20px;
+}
+.goal-completed {
+    text-decoration: line-through;
+}
+
