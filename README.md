@@ -2,7 +2,7 @@
 
 DWMYL is a simple goal planning app where goals can be input to different lists: day, week, month, year, and life. It's a basic looking app, but extra effort was taken to write it using the most modern, best-practice, AngularJS.
 
-View it at: [https://dwmyl.firebaseio.com](https://dwmyl.firebaseio.com)
+View it at: [https://dwmyl.firebaseapp.com](https://dwmyl.firebaseapp.com)
 
 **Please note that this is a demo app** to showcase my JavaScript/AngularJS skills, and is by no means production ready. The UI is barebones as it is not meant to be a UI piece at this point, though I will add a sexy interface with animations, routing with other views, etc in future updates.
 
